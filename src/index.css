@@ -48,3 +48,83 @@ h2,
 h3{
   letter-spacing: var(--spacing);
 }
+
+/*
+=============== 
+  Button default
+===============
+*/
+
+.btn {
+  text-transform: uppercase;
+  background: var(--clr-primary);
+  color: var(--clr-white);
+  padding: 0.375rem 0.75rem;
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  font-weight: 700;
+  transition: var(--transition);
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+  color: var(--clr-primary);
+  background: var(--clr-primary-light);
+}
+
+/*
+=============== 
+  Navbar
+===============
+*/
+
+.loading {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+nav {
+  background: var(--clr-primary-dark);
+  padding: 3rem;
+}
+
+.nav-center {
+  max-width: var(--container);
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  font-size: var(--large);
+  color: var(--clr-white);
+  text-transform: uppercase;
+}
+
+.nav-container {
+  display: block;
+  position: relative;
+}
+
+.amount-container {
+  position: absolute;
+  top: 0.8rem;
+  right: -0.8rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background: var(--clr-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.total-amount {
+  color: var(--clr-white);
+  font-size: 0.9rem;
+}
