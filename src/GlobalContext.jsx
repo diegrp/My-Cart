@@ -1,4 +1,5 @@
 import React, { createContext, useContext } from 'react'
+import cartItems from '../api/data'
 
 export const AppContext = createContext();
 
