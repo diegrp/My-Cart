@@ -128,3 +128,59 @@ nav h2 {
   color: var(--clr-white);
   font-size: 0.9rem;
 }
+
+/*
+=============== 
+  Cart
+===============
+*/
+
+.cart {
+  width: 90vw;
+  margin: 40px auto;
+  padding: 10px 0;
+  max-width: var(--container);
+}
+
+.cart h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: var(--large);
+  margin-bottom: 2rem;
+}
+
+.empty-cart {
+  color: var(--clr-grey-5);
+  text-align: center;
+}
+
+.cart footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.total-cart p {
+  text-align: center;
+  color: var(--clr-grey-1);
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.total-cart span{
+  font-weight: normal;
+}
+
+.clear-btn {
+  background: transparent;
+  padding: 0.5rem 1rem;
+  margin-top: 20px;
+  color: var(--clr-red-dark);
+  border: 1px solid var(--clr-red-dark);
+  border-radius: var(--radius);
+}
+
+.clear-btn:hover {
+  background: var(--clr-red-light);
+  color: var(--clr-white);
+  border-color: var(--clr-red-dark);
+}
